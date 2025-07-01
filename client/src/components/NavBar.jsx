@@ -3,13 +3,8 @@ import { assets } from '../assets/assets';
 import { useNavigate } from 'react-router-dom';
 
 const NavBar = () => {
-<<<<<<< HEAD
-  const navigate = useNavigate();
-
-=======
 // nav functions is here
   const navigate =useNavigate();
->>>>>>> 222cd53bdaf7019221e63ab6a70225e73f15f87c
   return (
     <div className='flex justify-between items-center py-5 mx-8 sm:mx-20 xl:mx-32'>
       <img
