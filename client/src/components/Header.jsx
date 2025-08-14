@@ -31,12 +31,16 @@ const Header = () => {
 
         <h1 className="text-3xl sm:text-6xl font-semibold leading-tight sm:leading-[4.5rem] text-gray-800">
           Campino<br />
-          <span className="text-blue-600">Connect. Discover. Grow.</span>
+          <span className="text-blue-600 text-2xl font-semibold">
+  Your hub for college updates & opportunities
+</span>
            </h1>
            <p className='my-6 sm:my-8 max-w-2xl m-auto max-sm:text-xs text-gray-500'>
-               This is your space to think out loud, to share what 
-                matters, and to write without filters. Whether it's one word or a thousand, 
-                your story starts right here.
+              "Stay ahead in your college journey with Campino — your space to explore events,
+                 grab opportunities, and connect with stories that matter. Whether you’re here to share 
+               or discover, it all starts here."
+
+
             </p>
            <form onSubmit={onSubmitHandler} className='flex justify-between max-w-lg max-sm:scale-75 mx-auto border border-gray-300 bg-white rounded overflow-hidden'>
             <input ref={inputRef} type="text" placeholder='Search for blogs' required 

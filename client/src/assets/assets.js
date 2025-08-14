@@ -58,7 +58,7 @@ export const assets = {
     dashboard_icon_3,
     dashboard_icon_4,
 }
-export const blogCategories = ['All', 'Technology', 'Startup', 'Lifestyle', 'Finance']
+export const blogCategories = ['All', 'Announcements', 'Startup', 'Events & Hackathons', 'Interview Experience']
 
 export const blog_data = [
     {
